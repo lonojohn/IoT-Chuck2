@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Chuck2
+  host: IoT-Chuck2
+  disk_quota: 1024M
+  services:
+  - IoT-Chuck2-cloudantNoSQLDB
+  - IoT-Chuck2-iotf-service
